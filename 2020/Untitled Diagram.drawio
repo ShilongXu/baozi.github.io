@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-08-09T03:49:49.237Z" agent="5.0 (Windows)" etag="2mnUrbK7KpeVn5eXuF84" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-09T08:20:06.951Z" agent="5.0 (Windows)" etag="_t_s8Qxfaq21rvlBZMlJ" version="14.9.5" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="2529" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1946" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_3EDfVnfO1TGGqDo599J-32" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=86;strokeWidth=2;fillColor=#E6FFCC;dashed=1;strokeColor=#FF3399;" vertex="1" parent="1">
-          <mxGeometry x="-540" y="920" width="380" height="520" as="geometry" />
+          <mxGeometry x="-540" y="920" width="380" height="590" as="geometry" />
         </mxCell>
         <mxCell id="k4lBBu5_LCIpSnBgb268-116" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;arcSize=9;dashed=1;strokeWidth=2;glass=0;fillColor=#F0FFFE;strokeColor=#00F5F5;" parent="1" vertex="1">
           <mxGeometry x="370" y="440" width="480" height="1650" as="geometry" />
@@ -362,7 +362,7 @@
           <mxGeometry x="-25" y="680" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="k4lBBu5_LCIpSnBgb268-233" value="商城首页" style="ellipse;whiteSpace=wrap;html=1;rounded=1;glass=0;fontSize=12;strokeColor=#000000;strokeWidth=2;fillColor=#ffffff;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-148.5" y="1400" width="97.5" height="40" as="geometry" />
+          <mxGeometry x="-148" y="1570" width="97.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="k4lBBu5_LCIpSnBgb268-235" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="-100" y="740" width="40" height="20" as="geometry" />
@@ -441,11 +441,11 @@
         <mxCell id="_3EDfVnfO1TGGqDo599J-11" value="根据uid判断当前社交用户在数据库中是否为空；即表示是否已登录过系统" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
           <mxGeometry x="-507.09" y="1050" width="129.39" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_3EDfVnfO1TGGqDo599J-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_3EDfVnfO1TGGqDo599J-18" target="k4lBBu5_LCIpSnBgb268-233">
+        <mxCell id="_3EDfVnfO1TGGqDo599J-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="_3EDfVnfO1TGGqDo599J-18" target="_3EDfVnfO1TGGqDo599J-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_3EDfVnfO1TGGqDo599J-18" value="更新数据库中对应udi的令牌和令牌过期时间" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-502.39500000000004" y="1170" width="120" height="60" as="geometry" />
+          <mxGeometry x="-502.4" y="1170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_3EDfVnfO1TGGqDo599J-20" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-436.65000000000003" y="1131" width="30" height="20" as="geometry" />
@@ -462,13 +462,8 @@
         <mxCell id="_3EDfVnfO1TGGqDo599J-23" value="&lt;div&gt;持令牌访问社交平台服务器&lt;/div&gt;&lt;div&gt;获取社交帐号开放保护信息，返回json数据&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
           <mxGeometry x="-338.51" y="1160" width="168.51" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="_3EDfVnfO1TGGqDo599J-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_3EDfVnfO1TGGqDo599J-25" target="k4lBBu5_LCIpSnBgb268-233">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-150" y="1430" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-254" y="1420" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-37" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1" source="_3EDfVnfO1TGGqDo599J-25" target="_3EDfVnfO1TGGqDo599J-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_3EDfVnfO1TGGqDo599J-25" value="用JSONObject对象的parseObjec方法获取用户唯一id，令牌，令牌过期时间，昵称，头像，性别等信息存入数据库" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
           <mxGeometry x="-329.45" y="1275" width="150.4" height="70" as="geometry" />
@@ -478,6 +473,208 @@
         </mxCell>
         <mxCell id="_3EDfVnfO1TGGqDo599J-33" value="&lt;div&gt;社交帐号登录/&lt;/div&gt;&lt;div&gt;注册功能&lt;/div&gt;" style="whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF3399;fillColor=#FF99FF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-255" y="920" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.477;exitY=0.9;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;exitPerimeter=0;" edge="1" parent="1" source="_3EDfVnfO1TGGqDo599J-36" target="k4lBBu5_LCIpSnBgb268-233">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-257" y="1590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-36" value="提示“登录成功，欢迎[用户名]回来”" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;strokeWidth=2;arcSize=12;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="-314.26" y="1400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-73" value="Session共享问题-session原理" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-970" y="190" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="_3EDfVnfO1TGGqDo599J-78" target="_3EDfVnfO1TGGqDo599J-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-870" y="360" />
+              <mxPoint x="-870" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-78" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#FF3399;fillColor=#ffffff;size=40;" vertex="1" parent="1">
+          <mxGeometry x="-1130" y="285" width="100" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-90" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;rotation=0;" connectable="0" vertex="1" parent="_3EDfVnfO1TGGqDo599J-78">
+          <mxGeometry x="55" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-79" value="&lt;div&gt;服务器&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffffff;strokeColor=#00F5F5;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="290" width="100" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-81" value="第一次访问服务器（进行登录）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="340" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-86" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#00F5F5;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-705" y="340" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-87" value="&lt;div&gt;登录成功后&lt;/div&gt;&lt;div&gt;将用户的登录信息&lt;/div&gt;&lt;div&gt;保存到session中&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-694" y="340" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-88" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeColor=#000000;exitX=0;exitY=0.66;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;" edge="1" parent="1" source="_3EDfVnfO1TGGqDo599J-86" target="_3EDfVnfO1TGGqDo599J-78">
+          <mxGeometry x="0.573" y="-16" relative="1" as="geometry">
+            <mxPoint x="-720" y="406" as="sourcePoint" />
+            <mxPoint x="-1076" y="406" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-980" y="406" />
+              <mxPoint x="-980" y="406" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-89" value="2" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="_3EDfVnfO1TGGqDo599J-88">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-15" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeColor=#000000;" edge="1" parent="1" source="_3EDfVnfO1TGGqDo599J-91" target="_3EDfVnfO1TGGqDo599J-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-890" y="460" />
+              <mxPoint x="-890" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-91" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fillColor=#ffffff;strokeColor=#FF3399;" vertex="1" parent="1">
+          <mxGeometry x="-1085" y="389" width="10" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-93" value="以后访问会带上cookie" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="440" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-94" value="命令浏览器保存一个jsessionid的cookie" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="385" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-95" value="浏览器关闭，cookie清除" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="470" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeColor=#000000;" edge="1" parent="1" source="_3EDfVnfO1TGGqDo599J-78" target="_3EDfVnfO1TGGqDo599J-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1079.5" y="519.4285714285713" as="sourcePoint" />
+            <mxPoint x="-705" y="519.4285714285713" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-790" y="519" />
+              <mxPoint x="-790" y="519" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-98" value="再次访问时cookie已经清除还需要再次执行1步骤" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="500" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-99" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="440" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-100" value="4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="500" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-141" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=9;strokeColor=#FF3399;fillColor=#ffffff;columnLines=1;rowLines=1;horizontal=1;connectable=1;allowArrows=1;fixedRows=0;resizeLast=0;resizeLastRow=0;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-1120" y="610" width="460" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-142" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=1;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;noLabel=0;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-141">
+          <mxGeometry width="460" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-144" value="解决方法" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=9;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-142">
+          <mxGeometry width="80" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-145" value="优点" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=9;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-142">
+          <mxGeometry x="80" width="165" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-155" value="缺点" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=9;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-142">
+          <mxGeometry x="245" width="215" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-146" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-141">
+          <mxGeometry y="29" width="460" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-148" value="1.session复制（同步）方案&lt;br&gt;" style="shape=partialRectangle;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=8;align=left;html=1;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-146">
+          <mxGeometry width="80" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-149" value="web-server（tomcat）原生支持，只需要修改配置文件" style="shape=partialRectangle;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=8;align=left;html=1;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-146">
+          <mxGeometry x="80" width="165" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-156" value="1.session同步需要数据传输，占用大量的网络带宽，降低了服务器群的业务能力&lt;br&gt;2.任意一台web-sever保存的数据都是所有webserve的session总和，收到内存限制无法水平扩展更多的web-sever&lt;br&gt;3.大型分布集群情况下，由于所有web-server都全量保存数据，故此方案不可取&lt;br&gt;&lt;br&gt;" style="shape=partialRectangle;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=8;align=left;html=1;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-146">
+          <mxGeometry x="245" width="215" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-150" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-141">
+          <mxGeometry y="96" width="460" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-152" value="2.session存储在客户端cookie中&lt;span style=&quot;white-space: pre&quot;&gt;&lt;/span&gt;" style="shape=partialRectangle;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=8;align=left;html=1;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-150">
+          <mxGeometry width="80" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-153" value="服务器不需要存储session，用户保存自己的session信息到cookie中，节省服务端资源" style="shape=partialRectangle;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=8;align=left;html=1;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-150">
+          <mxGeometry x="80" width="165" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-157" value="&lt;div&gt;都是缺点，这只是一种思路，缺点如下&lt;/div&gt;&lt;div&gt;1.每次请求http携帯用户在 cookie中的完整信息，浪费网络帯&lt;br&gt;2.sessions数据放在 cookie中， cookie有长度限制4K,不能保存大量信息&lt;br&gt;3.session数据放在 cookies中，存在泄漏、算改、窃取等安全隐患，故此方案不可取&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=8;align=left;html=1;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-150">
+          <mxGeometry x="245" width="215" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-158" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-141">
+          <mxGeometry y="163" width="460" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-160" value="&lt;div&gt;3.hash一致性&lt;/div&gt;四层代理Ip_hash方案或七层代理业务字段hash方案" style="shape=partialRectangle;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=8;align=left;html=1;metaEdit=0;backgroundOutline=0;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-158">
+          <mxGeometry width="80" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-161" value="1.只需要改nginx配置，不需要修改业务代码&lt;br&gt;2.负载均衡，只要hash属性的值分布是均匀的，多台Web-servere的负载是均衡的&lt;br&gt;3.可以支持web-server水平扩展（ session同步法是不行的，受内存限制）" style="shape=partialRectangle;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=8;align=left;html=1;metaEdit=0;backgroundOutline=0;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-158">
+          <mxGeometry x="80" width="165" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-162" value="&lt;div&gt;1.session还是存在web-server中，故web-server重启可能导致部分session丢失，影响业务，丢失部分session的的用户需要重新登录&lt;/div&gt;&lt;div&gt;2.如果web-server水平扩展，rehash后session重新分布，也会有一部分用户路由不到正确的session，故此方案可用&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=8;align=left;html=1;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-158">
+          <mxGeometry x="245" width="215" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-163" value="一.不同服务，session不能共享，即不能跨域名共享（分布式）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;fillOpacity=100;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="585" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-165" value="二.同一个服务，布置在不同的服务器上，session不同步（集群）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1101" y="945" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-166" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=9;strokeColor=#FF3399;fillColor=#ffffff;columnLines=1;rowLines=1;horizontal=1;connectable=1;allowArrows=1;fixedRows=0;resizeLast=0;resizeLastRow=0;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-1137" y="969" width="432" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-167" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=1;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;noLabel=0;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-166">
+          <mxGeometry width="432" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-168" value="解决方法" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=9;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-167">
+          <mxGeometry width="108" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-169" value="优点" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=9;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-167">
+          <mxGeometry x="108" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-170" value="缺点" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=9;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-167">
+          <mxGeometry x="214" width="218" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-171" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-166">
+          <mxGeometry y="30" width="432" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-172" value="" style="shape=partialRectangle;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=8;align=left;html=1;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-171">
+          <mxGeometry width="108" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-173" value="" style="shape=partialRectangle;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=8;align=left;html=1;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-171">
+          <mxGeometry x="108" width="106" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-174" value="" style="shape=partialRectangle;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=8;align=left;html=1;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-171">
+          <mxGeometry x="214" width="218" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-175" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-166">
+          <mxGeometry y="94" width="432" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-176" value="" style="shape=partialRectangle;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=8;align=left;html=1;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-175">
+          <mxGeometry width="108" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-177" value="" style="shape=partialRectangle;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=8;align=left;html=1;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-175">
+          <mxGeometry x="108" width="106" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-178" value="" style="shape=partialRectangle;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=8;align=left;html=1;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-175">
+          <mxGeometry x="214" width="218" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-179" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-166">
+          <mxGeometry y="158" width="432" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-180" style="shape=partialRectangle;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=8;align=left;html=1;metaEdit=0;backgroundOutline=0;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-179">
+          <mxGeometry width="108" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-181" style="shape=partialRectangle;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=8;align=left;html=1;metaEdit=0;backgroundOutline=0;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-179">
+          <mxGeometry x="108" width="106" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="_3EDfVnfO1TGGqDo599J-182" style="shape=partialRectangle;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=8;align=left;html=1;" vertex="1" parent="_3EDfVnfO1TGGqDo599J-179">
+          <mxGeometry x="214" width="218" height="64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
